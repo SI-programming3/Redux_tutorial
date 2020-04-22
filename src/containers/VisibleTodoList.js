@@ -25,3 +25,11 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(TodoList);
+
+/*
+filter関数で、completedがfalseなもの（active）のみを抽出したり、
+  completedがtrueなもの（completed）のみを抽出している。
+子コンポーネントのTodoListに渡すtodosはfilter関数を通したもの。
+TodoListに渡すtoggleTodoは、引数にidを必要とする関数として渡される。
+  actionのtoggleTodoにてtypeとidをつけてreducerで処理される。
+*/

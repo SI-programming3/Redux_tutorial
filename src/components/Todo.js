@@ -19,3 +19,5 @@ Todo.propTypes = {
 };
 
 export default Todo;
+
+//やってることはLinkとほぼ同じ。

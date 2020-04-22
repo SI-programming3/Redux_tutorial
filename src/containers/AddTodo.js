@@ -25,3 +25,8 @@ const AddTodo = ({ dispatch }) => {
 };
 
 export default connect()(AddTodo);
+
+/*
+onSubmitは送信ボタン（submit）が押された時に起動するイベント。
+inputのところはコールバックref。
+*/
